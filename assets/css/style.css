@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-
 html{
+font-size: 16px;
+}
+
+body{
     font-family: 'Playfair Display', serif;
 }
 
@@ -25,3 +28,45 @@ html{
 
 
 /*Navigation*/
+
+/*Header*/
+.header{
+    background-image: url('/assets/img/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: scroll;
+    height: 100vh;
+    text-align: center;
+}
+.header .header__cta{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.cta__heading{
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.header__cta--text{
+    font-size: 2rem;
+   
+
+}
+
+.header__cta--text span
+{
+text-align: right !important;
+}
+
+.header__cta--heading{
+    font-size: 5rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.header__cta a {
+    font-family: 'Lato';
+    padding: 1.1rem;
+}
+/*Header*/
