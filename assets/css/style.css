@@ -109,3 +109,15 @@ text-align: right !important;
     padding: 1.1rem;
 }
 /*Header*/
+
+/*Showcase*/
+#showcase .showcase-img{
+min-height: 30rem;
+background-size: cover;
+}
+
+#showcase .showcase-text{
+    padding: 7rem;
+}
+
+/*Showcase*/
