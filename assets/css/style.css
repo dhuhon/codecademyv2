@@ -11,6 +11,45 @@ font-size: 16px;
 body{
     font-family: 'Playfair Display', serif;
 }
+section{
+    padding:150px 0px;
+}
+
+section h2.section-heading{
+font-size: 3.5rem;
+margin-top: 0;
+margin-bottom: 0.9875rem;
+position: relative;
+}
+
+section h2.section-heading::after{
+position: absolute;
+content: '';
+height: 3px;
+margin: 0 auto;
+left: 0;
+right: 0;
+width: 10%;
+background-color: blue;
+border-radius: 50%;
+bottom: -10px;
+transition: 1s ease;
+
+}
+
+section h2.section-heading:hover:after {
+width: 20%;
+border-radius: 0%;
+}
+
+section h3.section-subheading{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 6rem;
+    text-transform: none;
+    font-family: inherit;
+    margin-top: 1.75rem;
+}
 
 /*Navigation*/
 .navbar-brand{
