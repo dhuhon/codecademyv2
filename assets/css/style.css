@@ -111,6 +111,9 @@ text-align: right !important;
 /*Header*/
 
 /*Showcase*/
+#showcase{
+    padding: 150px 0 0 0;
+}
 #showcase .showcase-img{
 min-height: 30rem;
 background-size: cover;
@@ -121,3 +124,7 @@ background-size: cover;
 }
 
 /*Showcase*/
+
+/*CTA*/
+
+/*CTA*/
