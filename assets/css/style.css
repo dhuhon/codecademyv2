@@ -112,7 +112,7 @@ text-align: right !important;
 
 /*Showcase*/
 #showcase{
-    padding: 150px 0 0 0;
+    padding: 0 0 0 0;
 }
 #showcase .showcase-img{
 min-height: 30rem;
@@ -125,6 +125,48 @@ background-size: cover;
 
 /*Showcase*/
 
-/*CTA*/
+/*Services*/
+#services{
+    background-color: #e9ebed;
+   
+}
+/*Services*/
 
-/*CTA*/
+/*Footer*/
+.footer{
+    background-color: #222831;
+    color:white;
+    padding: 75px 0 40px 0;
+    text-align: center;
+}
+.footer a {
+    margin: 5px 0;
+color: white;
+text-decoration: none;
+}
+
+.footer-col{
+margin-bottom: 30px;
+}
+
+.footer__contact h4{
+     margin-bottom: 20px;
+     font-weight: 600;
+
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list a, .footer__detail a{
+margin: 5px 0;
+color: white;
+text-decoration: none;
+}
+
+.footer__info{
+text-align: center;
+margin-top: 25px;
+}
+/*Footer*/
